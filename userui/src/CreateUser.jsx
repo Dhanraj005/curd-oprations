@@ -24,7 +24,7 @@ const handleSubmit =(e)=>{
             <form onSubmit={handleSubmit}>
                 <h2>Add User</h2>
                 <div className='mb-2'>
-                    <label htmlFor=''>Name</label>
+                    <label htmlFor=''>Product</label>
                     <input type='text' placeholder='Enter Product' className='form-control' onChange={(e)=>setProduct(e.target.value)}/>
                 </div>
                 <div className='mb-2'>
@@ -32,7 +32,7 @@ const handleSubmit =(e)=>{
                     <input type='text' placeholder='Enter Email' className='form-control' onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                 <div className='mb-2'>
-                    <label htmlFor=''>Age</label>
+                    <label htmlFor=''>Price</label>
                     <input type='text' placeholder='Enter Age' className='form-control' onChange={(e)=>setPrice(e.target.value)}/>
                 </div>
                 <button className='btn btn-success'>Submit</button>

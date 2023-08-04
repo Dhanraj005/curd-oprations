@@ -36,7 +36,7 @@ useEffect(()=>{
             <form onSubmit={handleUpdate}>
                 <h2>Update User</h2>
                 <div className='mb-2'>
-                    <label htmlFor=''>Name</label>
+                    <label htmlFor=''>Product</label>
                     <input type='text' placeholder='Enter Product' className='form-control' value={product} onChange={(e)=>setProduct(e.target.value)}/>
                 </div>
                 <div className='mb-2'>
@@ -44,7 +44,7 @@ useEffect(()=>{
                     <input type='text' placeholder='Enter Email' className='form-control' value={email} onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                 <div className='mb-2'>
-                    <label htmlFor=''>Age</label>
+                    <label htmlFor=''>Price</label>
                     <input type='text' placeholder='Enter Age' className='form-control' value={price} onChange={(e)=>setPrice(e.target.value)}/>
                 </div>
                 <button className='btn btn-success'>Update</button>

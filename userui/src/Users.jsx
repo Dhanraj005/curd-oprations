@@ -27,7 +27,9 @@ function Users() {
       className="d-flex vh-100 justify-content-center aling-items-center"
       style={{ backgroundColor: "#f5ebeb" }}
     >
+      
       <div className="w-50 bg-white rounded p-3 mt-3 mb-3" style={{boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px'}}>
+      <h1>Add Product</h1>
         <Link to="/create" className="btn btn-success">
           Add{" "}
         </Link>
